@@ -118,6 +118,8 @@ public class Main {
                     secondPart += arr[i];
                 }
                 System.out.print("\nsum of the second part: " + secondPart);
+            } else {
+                result = true;
             }
         } else if (firstPart == secondPart){
             result = true;
